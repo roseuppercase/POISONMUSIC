@@ -30,7 +30,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "5242880000"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 
 # ───── Custom API Configs ───── #
-API_URL = getenv("API_URL") #optional
+API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #optional
 API_KEY = getenv("API_KEY") #optional
 COOKIE_URL = getenv("COOKIE_URL") #necessary
 DEEP_API = getenv("DEEP_API") #optional
