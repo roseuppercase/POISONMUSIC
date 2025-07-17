@@ -27,7 +27,7 @@ psutil
 ntgcalls
 youtube_search
 pytube
-py-tgcalls==2.2.3
+py-tgcalls==2.2.5
 pycryptodome
 pydub
 pyfiglet
